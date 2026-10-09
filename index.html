@@ -1,271 +1,102 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Professional portfolio website for Aryan Rana, developer and creator." />
-    <title>Aryan Rana | Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="bg-glow glow-one"></div>
-    <div class="bg-glow glow-two"></div>
-
-    <header class="topbar">
-      <div class="container nav">
-        <div class="logo">Aryan Rana</div>
-        <nav class="nav-links">
-          <a href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <a class="btn btn-primary" href="#contact">Hire Me</a>
-      </div>
-    </header>
-
-    <main>
-      <section class="hero">
-        <div class="container hero-grid">
-          <div class="reveal">
-            <span class="eyebrow">Creative Developer</span>
-            <h1>
-              I build <span class="gradient-text">modern digital experiences</span>
-            </h1>
-            <p>
-              I’m Aryan Rana, a front-end and back-end developer focused on building fast,
-              beautiful, and professional websites with smooth interaction and clean code.
-            </p>
-            <div class="hero-actions">
-              <a href="#projects" class="btn btn-primary">View Projects</a>
-              <a href="#contact" class="btn btn-secondary">Contact Me</a>
-            </div>
-            <div class="stats">
-              <div class="stat">
-                <strong>2+</strong>
-                <span>Years Experience</span>
-              </div>
-              <div class="stat">
-                <strong>15+</strong>
-                <span>Projects</span>
-              </div>
-              <div class="stat">
-                <strong>100%</strong>
-                <span>Passion</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="hero-visual reveal">
-            <div class="orbit"></div>
-            <div class="profile-card">
-              <span class="badge">Available for work</span>
-              <div class="avatar"></div>
-              <div class="mini-box">
-                <div>
-                  <strong>UI/UX</strong>
-                  <span>Design</span>
-                </div>
-                <div>
-                  <strong>Web</strong>
-                  <span>Build</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="about">
-        <div class="container">
-          <div class="section-head reveal">
-            <h2>About Me</h2>
-            <p>
-              I create websites that are responsive, polished, and built to make an impact.
-            </p>
-          </div>
-
-          <div class="about-grid">
-            <div class="card about-card reveal">
-              <p>
-                I am a developer who enjoys turning ideas into clean, functional, and attractive
-                web experiences. My work combines design thinking, front-end development, and
-                back-end logic to build digital products that feel premium and work smoothly.
-              </p>
-            </div>
-
-            <div class="card about-card reveal">
-              <div class="skill-list">
-                <div class="skill-pill">HTML</div>
-                <div class="skill-pill">CSS</div>
-                <div class="skill-pill">JavaScript</div>
-                <div class="skill-pill">Node.js</div>
-                <div class="skill-pill">React</div>
-                <div class="skill-pill">MongoDB</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="services">
-        <div class="container">
-          <div class="section-head reveal">
-            <h2>Services</h2>
-            <p>
-              I provide digital solutions for personal brands, businesses, and growing projects.
-            </p>
-          </div>
-
-          <div class="services-grid">
-            <div class="card service-card reveal">
-              <div class="icon">💻</div>
-              <h3>Frontend Development</h3>
-              <p>Modern interfaces with clean code, responsive layout, and premium visual flow.</p>
-            </div>
-
-            <div class="card service-card reveal">
-              <div class="icon">⚙️</div>
-              <h3>Backend Development</h3>
-              <p>Powerful APIs, data handling, and robust logic built for real-world use.</p>
-            </div>
-
-            <div class="card service-card reveal">
-              <div class="icon">🎨</div>
-              <h3>UI/UX Design</h3>
-              <p>Elegant, user-focused design that looks professional and feels intuitive.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="projects">
-        <div class="container">
-          <div class="section-head reveal">
-            <h2>Projects</h2>
-            <p>
-              Selected work focused on creativity, functionality, and polished experiences.
-            </p>
-          </div>
-
-          <div class="projects-grid">
-            <div class="card project-card reveal">
-              <div class="project-image project-one"></div>
-              <div class="project-body">
-                <h3>Portfolio Website</h3>
-                <p>Premium personal portfolio with a modern layout and smooth interaction.</p>
-                <div class="tags">
-                  <span>HTML</span>
-                  <span>CSS</span>
-                  <span>JS</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="card project-card reveal">
-              <div class="project-image project-two"></div>
-              <div class="project-body">
-                <h3>Business Site</h3>
-                <p>Professional landing page designed for a growing brand or service.</p>
-                <div class="tags">
-                  <span>React</span>
-                  <span>UI</span>
-                  <span>Design</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="card project-card reveal">
-              <div class="project-image project-three"></div>
-              <div class="project-body">
-                <h3>Web App</h3>
-                <p>Interactive application built with focus on usability and performance.</p>
-                <div class="tags">
-                  <span>Node</span>
-                  <span>API</span>
-                  <span>MongoDB</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact">
-        <div class="container">
-          <div class="section-head reveal">
-            <h2>Contact</h2>
-            <p>
-              Let’s build something modern, useful, and impactful together.
-            </p>
-          </div>
-
-          <div class="contact-wrap">
-            <div class="card contact-card reveal">
-              <h3>Get in touch</h3>
-              <div class="contact-list">
-                <div class="contact-item">
-                  <span class="dot"></span>
-                  <div>
-                    <strong>Phone</strong><br />
-                    +91 93177 71340
-                  </div>
-                </div>
-                <div class="contact-item">
-                  <span class="dot"></span>
-                  <div>
-                    <strong>Email</strong><br />
-                    aryanrana@example.com
-                  </div>
-                </div>
-                <div class="contact-item">
-                  <span class="dot"></span>
-                  <div>
-                    <strong>Location</strong><br />
-                    India
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="card contact-card reveal">
-              <form id="contactForm">
-                <div class="field">
-                  <label for="name">Name</label>
-                  <input id="name" name="name" type="text" placeholder="Your name" required />
-                </div>
-                <div class="field">
-                  <label for="email">Email</label>
-                  <input id="email" name="email" type="email" placeholder="Your email" required />
-                </div>
-                <div class="field">
-                  <label for="message">Message</label>
-                  <textarea id="message" name="message" placeholder="Write your message" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Send Message</button>
-                <p id="formStatus" class="form-status"></p>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="container footer-inner">
-        <p>© 2026 Aryan Rana. All rights reserved.</p>
-        <p>Created by Aryan Rana</p>
-        <div class="socials">
-          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">in</a>
-          <a href="https://github.com" target="_blank" rel="noreferrer">gh</a>
-          <a href="https://www.instagram.com" target="_blank" rel="noreferrer">ig</a>
-        </div>
-      </div>
-    </footer>
-
-    <script src="script.js"></script>
-  </body>
-</html>
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f4ef"><meta name="description" content="Thoughtful trips, extraordinary places, and room to wander with Aryan Travel."><title>Aryan Travel — Go where you feel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#20251f;--muted:#777a70;--paper:#f5f4ef;--white:#fffefa;--green:#315b45;--lime:#d9ef9a;--line:#e8e6dd;--serif:Georgia,'Times New Roman',serif;--sans:'DM Sans',sans-serif;--display:'Manrope',sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:14px var(--sans)}button,input,select{font:inherit}a{color:inherit;text-decoration:none}.shell{width:min(1360px,calc(100% - 80px));margin:auto}.topbar{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #20251f1a}.brand{font:800 25px var(--display);letter-spacing:-1.4px;display:flex;align-items:center;gap:9px}.mark{width:29px;height:29px;border-radius:50% 50% 50% 8px;background:var(--green);display:grid;place-items:center;color:var(--lime);font-size:15px}.nav{display:flex;gap:35px;color:#5e6158;font-size:13px}.nav a:hover{color:var(--green)}.actions{display:flex;align-items:center;gap:20px}.signup{background:var(--ink);color:white;border:0;border-radius:30px;padding:12px 20px;font-weight:600;cursor:pointer}.menu{display:none;border:0;background:none;font-size:23px}.hero{position:relative;margin-top:27px;height:min(650px,72vw);min-height:510px;border-radius:8px;overflow:hidden;background:#738674}.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 55%;animation:arrive 1s ease both}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#0c171d99,#0c171d21 65%),linear-gradient(0deg,#0e161145,transparent 45%)}.copy{position:absolute;z-index:1;top:17%;left:8%;color:white;max-width:620px;animation:rise .8s .1s both}.eyebrow,.kicker{font-size:10px;text-transform:uppercase;letter-spacing:2px;font-weight:700}.eyebrow:before{content:"";display:inline-block;width:24px;height:1px;background:currentColor;vertical-align:middle;margin-right:9px}.copy h1{font:500 clamp(58px,8vw,105px)/.98 var(--serif);letter-spacing:-4px;margin:24px 0 19px}.copy p{font-size:15px;line-height:1.7;color:#f1f1e9;max-width:365px}.hero-note,.hero-count{position:absolute;z-index:1;bottom:28px;color:white;font-size:11px;letter-spacing:1px;text-transform:uppercase}.hero-note{left:8%}.hero-count{right:30px}.search{position:relative;z-index:2;background:var(--white);width:min(890px,calc(100% - 80px));margin:-49px auto 0;box-shadow:0 15px 55px #20251f14;border:1px solid var(--line);border-radius:6px;padding:12px;display:grid;grid-template-columns:1.35fr 1fr 1fr auto;align-items:center}.field{height:57px;padding:9px 19px;border-right:1px solid var(--line);display:flex;flex-direction:column;justify-content:center;gap:6px}.field label{font-size:10px;letter-spacing:1px;text-transform:uppercase;font-weight:700;color:var(--muted)}.field select,.field input{border:0;outline:0;background:transparent;color:var(--ink);font-size:13px;min-width:0}.search button,.solid{height:52px;padding:0 23px;border:0;border-radius:4px;background:var(--green);color:white;font-weight:600;cursor:pointer}.section{padding:96px 0 80px}.section-head{display:flex;align-items:end;justify-content:space-between;margin-bottom:28px}.kicker{color:var(--green);letter-spacing:1.8px}.section h2{font:500 clamp(34px,4vw,49px)/1.1 var(--serif);letter-spacing:-1.3px;margin:10px 0 0}.intro{color:var(--muted);margin:0 0 5px}.filters{display:flex;gap:8px;margin-bottom:20px;overflow:auto;padding:2px 0}.filter{border:1px solid #dcdcd2;color:#676b61;background:transparent;border-radius:30px;padding:9px 15px;font-size:12px;white-space:nowrap;cursor:pointer}.filter:hover,.filter.selected{background:var(--green);color:white;border-color:var(--green)}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.destination{min-width:0;cursor:pointer;animation:rise .45s both}.photo{position:relative;overflow:hidden;aspect-ratio:.82;border-radius:5px;background:#d7d9ce}.photo img{width:100%;height:100%;object-fit:cover;transition:transform .6s}.destination:hover .photo img{transform:scale(1.045)}.tag{position:absolute;left:13px;top:13px;background:#f5f4efeb;border-radius:30px;padding:7px 10px;font-size:10px;font-weight:700}.heart{position:absolute;right:12px;top:12px;width:34px;height:34px;border:0;border-radius:50%;background:#f5f4efeb;font-size:17px;cursor:pointer}.heart.saved{color:#bc4e42}.meta{display:flex;justify-content:space-between;align-items:start;padding-top:12px}.meta h3{font-size:15px;margin:0 0 4px;font-weight:600}.meta p{font-size:12px;color:var(--muted);margin:0}.rating{font-size:12px;font-weight:600;white-space:nowrap}.rating span{color:#bd8650}.price{font-size:12px;color:#575b51;margin-top:8px}.price strong{font-size:14px;color:var(--ink)}.story{min-height:400px;display:grid;grid-template-columns:1fr 1fr;background:#e8e9dd;margin:6px auto 92px;overflow:hidden;border-radius:6px}.story img{width:100%;height:100%;min-height:400px;object-fit:cover}.story-copy{padding:clamp(35px,6vw,75px);display:flex;flex-direction:column;align-items:flex-start;justify-content:center}.story-copy h2{font:500 clamp(36px,4vw,53px)/1.07 var(--serif);margin:15px 0}.story-copy p{color:#686c61;line-height:1.8;max-width:385px;margin:0 0 24px}.solid{height:auto;display:inline-flex;align-items:center;gap:15px;padding:14px 19px;font-size:12px}.perks{display:grid;grid-template-columns:repeat(3,1fr);border-block:1px solid var(--line);padding:28px 0;margin-bottom:85px}.perk{display:flex;gap:14px;align-items:center;padding:0 25px;border-right:1px solid var(--line)}.perk:first-child{padding-left:0}.perk:last-child{border:0}.perk-icon{width:39px;height:39px;display:grid;place-items:center;background:#e9ebdd;border-radius:50%;font-size:16px}.perk strong{display:block;font-size:12px;margin-bottom:4px}.perk span:last-child{font-size:11px;color:var(--muted)}.newsletter{padding:60px 25px;background:#e9ebdd;text-align:center;border-radius:5px;margin-bottom:75px}.newsletter h2{font:500 clamp(34px,4vw,48px) var(--serif);margin:0 0 10px}.newsletter p{color:#6e7267;margin:0 0 22px}.email{margin:auto;display:flex;max-width:410px;padding:5px;background:var(--white);border:1px solid #dedfd4;border-radius:3px}.email input{flex:1;min-width:0;padding:0 12px;border:0;outline:0;background:transparent}.email button{background:var(--green);color:white;border:0;border-radius:2px;padding:12px 18px;font-weight:600;cursor:pointer}.footer{border-top:1px solid var(--line);padding:28px 0;display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:11px}.footlinks{display:flex;gap:20px}.toast{position:fixed;z-index:5;bottom:24px;left:50%;transform:translate(-50%,20px);padding:13px 19px;background:var(--ink);color:white;border-radius:4px;opacity:0;pointer-events:none;transition:.25s}.toast.show{opacity:1;transform:translate(-50%,0)}.backdrop{position:fixed;inset:0;background:#131914a8;z-index:10;display:none;place-items:center;padding:20px}.backdrop.open{display:grid}.modal{width:min(490px,100%);background:var(--white);padding:30px;border-radius:6px;position:relative}.close{position:absolute;right:17px;top:13px;border:0;background:none;font-size:23px;cursor:pointer}.modal h2{font:500 36px var(--serif);margin:10px 0}.modal p{color:var(--muted);line-height:1.7}.details{display:flex;gap:18px;border-top:1px solid var(--line);padding-top:15px;font-size:12px}@keyframes arrive{from{transform:scale(1.035);opacity:.7}to{transform:scale(1);opacity:1}}@keyframes rise{from{transform:translateY(15px);opacity:0}to{transform:translateY(0);opacity:1}}@media(max-width:850px){.shell{width:calc(100% - 42px)}.nav{gap:18px}.hero{height:570px}.search{width:calc(100% - 80px);grid-template-columns:1fr 1fr}.field{padding:8px 10px}.field:nth-child(2){border-right:0}.field:nth-child(3){border-top:1px solid var(--line)}.search button{margin:4px}.section{padding:75px 0 60px}.grid{grid-template-columns:repeat(2,1fr);gap:25px 14px}.photo{aspect-ratio:1.02}.story{margin-bottom:72px}.story-copy{padding:34px}.perks{margin-bottom:65px}}@media(max-width:600px){.shell{width:calc(100% - 32px)}.topbar{height:67px}.brand{font-size:23px}.menu{display:block}.nav{display:none;position:absolute;z-index:4;top:66px;left:0;right:0;padding:18px 22px;background:var(--paper);border-bottom:1px solid var(--line);flex-direction:column;gap:18px}.nav.open{display:flex}.actions{gap:12px}.actions>a:first-child{display:none}.signup{padding:10px 14px;font-size:12px}.hero{margin-top:15px;height:590px;min-height:0}.hero img{object-position:58% center}.copy{top:16%;left:7%;right:7%}.copy h1{font-size:66px;letter-spacing:-2.6px;margin:20px 0 15px}.copy p{font-size:13px;max-width:270px}.hero-note{left:7%;font-size:9px}.hero-count{right:16px}.search{width:calc(100% - 48px);margin-top:-35px;padding:8px}.field{height:53px}.field label{font-size:9px}.field select,.field input{font-size:11px}.search button{font-size:11px;padding:0 8px}.section{padding:64px 0 50px}.section-head{align-items:flex-start;gap:12px}.section h2{font-size:37px}.intro{display:none}.section-head .kicker{font-size:9px}.grid{gap:22px 10px}.photo{aspect-ratio:.82}.tag{left:8px;top:8px;font-size:9px;padding:6px 8px}.heart{right:8px;top:8px;width:31px;height:31px}.meta h3{font-size:13px}.meta p,.rating,.price{font-size:10px}.price strong{font-size:12px}.story{grid-template-columns:1fr;margin-bottom:55px}.story img{min-height:255px;height:255px}.story-copy{padding:32px 25px 36px}.story-copy h2{font-size:39px}.perks{grid-template-columns:1fr;gap:20px;padding:22px 0;margin-bottom:50px}.perk,.perk:first-child{padding:0;border:0}.newsletter{padding:43px 18px;margin-bottom:50px}.newsletter h2{font-size:37px}.newsletter p{font-size:12px;line-height:1.6}.footer{gap:14px;align-items:flex-start;flex-direction:column}.footlinks{gap:15px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+.scroll-title{--title-tilt:8deg;--title-y:22px;opacity:0;transform:perspective(900px) translate3d(0,var(--title-y),0) rotateX(var(--title-tilt));transform-origin:center bottom;transition:opacity .7s ease,transform .85s cubic-bezier(.2,.7,.2,1);backface-visibility:hidden}.scroll-title.is-visible{opacity:1}.destination{opacity:0;transform:perspective(900px) translateY(20px) rotateX(4deg);transform-origin:center bottom;transition:opacity .65s ease,transform .8s cubic-bezier(.2,.7,.2,1)}.destination.is-visible{opacity:1;transform:perspective(900px) translateY(0) rotateX(0)}.photo img,.story>img{will-change:transform;transform:translate3d(0,var(--photo-drift,0px),0) scale(1.06);transition:transform .12s linear}.story>img{opacity:0;transition:opacity .7s ease,transform .12s linear}.story>img.is-visible{opacity:1}@media(prefers-reduced-motion:reduce){.scroll-title,.scroll-title.is-visible,.destination,.destination.is-visible,.photo img,.story>img,.story>img.is-visible{opacity:1;transform:none;transition:none;animation:none}}
+</style>
+<style>
+.destination{--card-depth-tilt:4deg;--card-depth-y:14px;--card-depth-scale:.98;transition:opacity .65s ease,transform .2s ease-out;transform:perspective(1100px) translateY(var(--card-depth-y)) rotateX(var(--card-depth-tilt)) scale(var(--card-depth-scale))}
+.destination.is-visible{transform:perspective(1100px) translateY(var(--card-depth-y)) rotateX(var(--card-depth-tilt)) scale(var(--card-depth-scale))}
+.photo{perspective:1100px;transform-style:preserve-3d}
+.photo img,.story>img,.hero>img{--photo-zoom:1.12;--photo-tilt:0deg;transform:perspective(1200px) translate3d(0,var(--photo-drift,0px),20px) scale(var(--photo-zoom)) rotateX(var(--photo-tilt));transition:transform .16s linear;backface-visibility:hidden}
+.hero>img{animation:heroFade .9s ease both}@keyframes heroFade{from{opacity:.65}to{opacity:1}}
+.story>img{transform:perspective(1200px) translate3d(0,var(--photo-drift,0px),20px) scale(var(--photo-zoom)) rotateX(var(--photo-tilt))}
+@media(max-width:600px){.destination,.destination.is-visible{--card-depth-tilt:0deg;--card-depth-y:0px;--card-depth-scale:1}.photo img,.story>img,.hero>img{--photo-tilt:0deg;--photo-zoom:1.08}}
+@media(prefers-reduced-motion:reduce){.destination,.destination.is-visible,.photo img,.story>img,.hero>img{transform:none;transition:none;animation:none}}
+</style>
+<style>
+.language-toggle{border:1px solid #d8d9d0;border-radius:30px;background:transparent;color:var(--ink);padding:9px 12px;font-size:11px;font-weight:700;cursor:pointer}.language-toggle:hover{background:#e9ebdd}@media(max-width:600px){.language-toggle{padding:8px 9px;font-size:10px}}
+html[lang="hi"] body{font-family:"Noto Sans Devanagari","Nirmala UI",var(--sans)}
+.language-toggle{min-width:36px;height:36px;cursor:pointer}.theme-toggle{width:36px;height:36px;padding:0;font-size:15px}.home-pages{position:relative}.home-pages summary{list-style:none;cursor:pointer;color:inherit}.home-pages summary::-webkit-details-marker{display:none}.home-pages-panel{position:absolute;z-index:9;top:calc(100% + 14px);right:0;min-width:180px;padding:8px;background:var(--white);border:1px solid var(--line);box-shadow:0 14px 35px #0002;border-radius:4px;display:grid;gap:2px}.home-pages-panel a{padding:10px 12px;border-radius:3px}.home-pages-panel a:hover{background:#e9ebdd;color:var(--green)}
+html[data-theme="dark"]{color-scheme:dark;--ink:#edf1eb;--muted:#adb7ac;--paper:#18211c;--white:#222e27;--green:#78a983;--lime:#d9ef9a;--line:#354239}html[data-theme="dark"] .story,html[data-theme="dark"] .newsletter{background:#28362c}html[data-theme="dark"] .story-copy p,html[data-theme="dark"] .newsletter p{color:#c4cec2}html[data-theme="dark"] .perk-icon{background:#35463a}html[data-theme="dark"] .filter{border-color:#46534a;color:var(--muted)}html[data-theme="dark"] .filter.selected{background:var(--green);color:#152019}html[data-theme="dark"] .search-card,html[data-theme="dark"] .email{background:var(--white);border-color:var(--line)}html[data-theme="dark"] .search-field{border-color:var(--line)}html[data-theme="dark"] .language-toggle{color:var(--ink);border-color:var(--line)}html[data-theme="dark"] .home-pages-panel{background:var(--white);border-color:var(--line)}
+</style>
+</head>
+<body>
+<header class="shell topbar"><a class="brand" href="#home"><span class="mark">↗</span> Aryan Travel</a><nav class="nav" id="nav"><a href="#home">Home</a><a href="#destinations">Destinations</a><a href="#journal">Our journal</a><a href="#about">About us</a></nav><div class="actions"><a href="#newsletter">Log in</a><a class="signup" href="#destinations">Plan a trip ↗</a><button class="menu" id="menu" aria-label="Open navigation">☰</button></div></header>
+<main><section class="shell hero" id="home"><img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=2200&q=88" alt="Quiet alpine lake reflecting mountains at sunrise"><div class="copy"><span class="eyebrow">The world is wide open</span><h1>Go where<br>you feel.</h1><p>Small-group escapes and thoughtful stays for the beautifully curious.</p></div><span class="hero-note">Dolomites, Italy · 46°28′N 11°43′E</span><span class="hero-count">01 — 04</span></section>
+<form class="search" id="search"><div class="field"><label for="place">Where to?</label><select id="place"><option value="All">Anywhere in the world</option><option>Europe</option><option>Asia</option><option>Africa</option><option>Americas</option></select></div><div class="field"><label for="month">When</label><input id="month" type="month" aria-label="Travel month"></div><div class="field"><label for="people">Travelers</label><select id="people"><option>2 travelers</option><option>1 traveler</option><option>3 travelers</option><option>4 travelers</option><option>5+ travelers</option></select></div><button type="submit">Find your trip →</button></form>
+<section class="shell section" id="destinations"><div class="section-head"><div><span class="kicker">Made for the moments</span><h2>Somewhere calling?</h2></div><p class="intro">Thoughtful trips for your next great story.</p></div><div class="filters" role="group" aria-label="Filter destinations"><button class="filter selected" data-filter="All">All places</button><button class="filter" data-filter="Europe">Europe</button><button class="filter" data-filter="Asia">Asia</button><button class="filter" data-filter="Africa">Africa</button><button class="filter" data-filter="Americas">Americas</button></div><div class="grid" id="grid" aria-live="polite"></div></section>
+<section class="shell story" id="journal"><img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1100&q=85" alt="Snow-covered peaks under a starry night sky" loading="lazy"><div class="story-copy"><span class="kicker">A little less ordinary</span><h2>More feeling.<br>Less itinerary.</h2><p>We find the kind of places that stay with you. The family-run guesthouse, the trail with no signal, the table that turns into an evening.</p><a class="solid" href="#destinations">Find your kind of trip →</a></div></section>
+<section class="shell perks" id="about"><div class="perk"><span class="perk-icon">✳</span><div><strong>Picked by people, not algorithms</strong><span>Every stay, hand-found and loved.</span></div></div><div class="perk"><span class="perk-icon">↗</span><div><strong>Travel that gives back</strong><span>Local-first, always.</span></div></div><div class="perk"><span class="perk-icon">♡</span><div><strong>Here for the whole journey</strong><span>Real humans, whenever you need.</span></div></div></section>
+<section class="shell newsletter" id="newsletter"><span class="kicker">A good thing in your inbox</span><h2>Take the scenic route.</h2><p>New places, thoughtful notes, and the occasional nudge to take a break.</p><form class="email" id="email"><input type="email" placeholder="Your email address" aria-label="Your email address" required><button>Count me in →</button></form></section></main>
+<footer class="shell footer"><a class="brand" href="#home"><span class="mark">↗</span> Aryan Travel</a><span>© 2026 Aryan Travel. Made for the curious.</span><div class="footlinks"><a href="#about">Instagram</a><a href="#about">Privacy</a><a href="#about">Contact</a></div></footer><div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="backdrop" id="backdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal"><button class="close" id="close" aria-label="Close">×</button><span class="kicker" id="modalKicker">An Aryan Travel escape</span><h2 id="modalTitle"></h2><p id="modalDescription"></p><div class="details"><span id="modalDuration"></span><span id="modalPrice"></span><span id="modalRating"></span></div><a class="solid" href="#newsletter" id="book">Ask us about this trip →</a></div></div>
+<script>
+document.addEventListener('DOMContentLoaded',()=>{
+	const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+	const titles=[...document.querySelectorAll('.section-head h2,.story-copy h2,.newsletter h2,.copy h1')];
+	const cards=[...document.querySelectorAll('.destination')];
+	const photos=[...document.querySelectorAll('.photo img,.story>img,.hero>img')];
+	if(reducedMotion){[...titles,...cards,...photos].forEach(element=>element.classList.add('is-visible'));return}
+	const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target)}}),{threshold:.14,rootMargin:'0px 0px -5% 0px'});
+	[...titles,...cards,...photos].forEach(element=>observer.observe(element));
+	let scheduled=false;
+	function updateDepth(){
+		scheduled=false;
+		const viewport=window.innerHeight||1;
+		const smallScreen=window.matchMedia('(max-width:600px)').matches;
+		titles.forEach(title=>{const rect=title.getBoundingClientRect();const offset=(rect.top+rect.height/2-viewport/2)/viewport;title.style.setProperty('--title-tilt',`${Math.max(-8,Math.min(8,offset*-14))}deg`);title.style.setProperty('--title-y',`${Math.max(-12,Math.min(12,offset*20))}px`)});
+		cards.forEach(card=>{const rect=card.getBoundingClientRect();const offset=(rect.top+rect.height/2-viewport/2)/viewport;const proximity=Math.max(0,1-Math.min(1,Math.abs(offset)*1.4));card.style.setProperty('--card-depth-tilt',`${smallScreen?0:Math.max(-4,Math.min(4,offset*-7))}deg`);card.style.setProperty('--card-depth-y',`${smallScreen?0:Math.max(-12,Math.min(12,offset*-20))}px`);card.style.setProperty('--card-depth-scale',`${smallScreen?1:.975+proximity*.025}`)});
+		photos.forEach(photo=>{const rect=photo.getBoundingClientRect();const offset=(rect.top+rect.height/2-viewport/2)/viewport;const proximity=Math.max(0,1-Math.min(1,Math.abs(offset)*1.35));photo.style.setProperty('--photo-drift',`${Math.max(-30,Math.min(30,offset*-50))}px`);photo.style.setProperty('--photo-zoom',`${smallScreen?1.08:1.1+proximity*.1}`);photo.style.setProperty('--photo-tilt',`${smallScreen?0:Math.max(-2,Math.min(2,offset*-3))}deg`)});
+	}
+	function requestDepthUpdate(){if(!scheduled){scheduled=true;requestAnimationFrame(updateDepth)}}
+	window.addEventListener('scroll',requestDepthUpdate,{passive:true});window.addEventListener('resize',requestDepthUpdate);updateDepth();
+});
+</script>
+<script>
+let siteLanguage='en';
+const languageCopy={
+en:{home:'Home',destinations:'Destinations',journal:'Our journal',about:'About us',login:'Log in',planTrip:'Plan a trip ↗',heroEyebrow:'The world is wide open',heroTitle:'Go where<br>you feel.',heroDescription:'Small-group escapes and thoughtful stays for the beautifully curious.',where:'Where to?',anywhere:'Anywhere in the world',when:'When',travelers:'Travelers',findTrip:'Find your trip →',moments:'Made for the moments',somewhere:'Somewhere calling?',intro:'Thoughtful trips for your next great story.',allPlaces:'All places',storyKicker:'A little less ordinary',storyTitle:'More feeling.<br>Less itinerary.',storyDescription:'We find the kind of places that stay with you. The family-run guesthouse, the trail with no signal, the table that turns into an evening.',storyLink:'Find your kind of trip →',perkOne:'Picked by people, not algorithms',perkOneText:'Every stay, hand-found and loved.',perkTwo:'Travel that gives back',perkTwoText:'Local-first, always.',perkThree:'Here for the whole journey',perkThreeText:'Real humans, whenever you need.',newsletterKicker:'A good thing in your inbox',newsletterTitle:'Take the scenic route.',newsletterDescription:'New places, thoughtful notes, and the occasional nudge to take a break.',emailPlaceholder:'Your email address',emailButton:'Count me in →',copyright:'© 2026 Aryan Travel. Made for the curious.',privacy:'Privacy',contact:'Contact',modalKicker:'An Aryan Travel escape',modalBook:'Ask us about this trip →',monthLabel:'Travel month',filterLabel:'Filter destinations',heroAlt:'Quiet alpine lake reflecting mountains at sunrise',storyAlt:'Snow-covered peaks under a starry night sky',menuOpen:'Open navigation',menuClose:'Close navigation',save:'Save'},
+hi:{home:'होम',destinations:'मंज़िलें',journal:'यात्रा डायरी',about:'हमारे बारे में',login:'लॉग इन',planTrip:'यात्रा प्लान करें ↗',heroEyebrow:'दुनिया आपका इंतज़ार कर रही है',heroTitle:'जहाँ दिल<br>कहे, चलो।',heroDescription:'छोटे समूहों में यादगार सफ़र और सुकून भरे ठिकाने।',where:'कहाँ जाना है?',anywhere:'दुनिया में कहीं भी',when:'कब?',travelers:'यात्री',findTrip:'सफ़र खोजें →',moments:'यादगार पलों के लिए',somewhere:'कौन-सी जगह बुला रही है?',intro:'आपकी अगली खूबसूरत यात्रा के लिए चुनी गई जगहें।',allPlaces:'सभी जगहें',storyKicker:'कुछ अलग अनुभव',storyTitle:'ज़्यादा एहसास।<br>कम भागदौड़।',storyDescription:'हम ऐसी जगहें ढूँढ़ते हैं जो दिल में रह जाएँ: परिवार के साथ ठहरना, बिना सिग्नल वाली पगडंडी और देर तक चलने वाली शाम।',storyLink:'अपनी पसंद की यात्रा खोजें →',perkOne:'लोगों की पसंद, एल्गोरिदम की नहीं',perkOneText:'हर ठिकाना सोच-समझकर चुना गया।',perkTwo:'स्थानीय लोगों के साथ यात्रा',perkTwoText:'हमेशा स्थानीय समुदाय को प्राथमिकता।',perkThree:'पूरे सफ़र में आपके साथ',perkThreeText:'ज़रूरत पड़ने पर असली मदद।',newsletterKicker:'आपके इनबॉक्स के लिए कुछ अच्छा',newsletterTitle:'सफ़र का आनंद लें।',newsletterDescription:'नई जगहें, काम की बातें और कभी-कभी छुट्टी लेने की याद।',emailPlaceholder:'आपका ईमेल पता',emailButton:'मुझे जोड़ें →',copyright:'© 2026 Aryan Travel. जिज्ञासु यात्रियों के लिए।',privacy:'गोपनीयता',contact:'संपर्क',modalKicker:'Aryan Travel के साथ सफ़र',modalBook:'इस यात्रा के बारे में पूछें →',monthLabel:'यात्रा का महीना',filterLabel:'जगहें चुनें',heroAlt:'पहाड़ों को दर्शाती शांत अल्पाइन झील',storyAlt:'तारों भरे आसमान के नीचे बर्फ़ीली चोटियाँ',menuOpen:'मेन्यू खोलें',menuClose:'मेन्यू बंद करें',save:'सहेजें'}
+};
+const regionNames={en:{All:'Anywhere',Europe:'Europe',Asia:'Asia',Africa:'Africa',Americas:'Americas'},hi:{All:'कहीं भी',Europe:'यूरोप',Asia:'एशिया',Africa:'अफ़्रीका',Americas:'अमेरिका'}};
+const hindiTrips={
+'Dolomites':{name:'डोलोमाइट्स',country:'इटली',tag:'पहाड़ी सुकून',duration:'7 दिन',description:'शांत पहाड़ी रास्तों, परिवार द्वारा चलाए जाने वाले रिफ्यूजी और ऐसी सुबहों के लिए निकलें जहाँ फ़ोन देखने का मन भी न हो।'},
+'Kyoto':{name:'क्योटो',country:'जापान',tag:'धीमी सुबहें',duration:'9 दिन',description:'लालटेन वाली गलियों, मंदिरों के बगीचों और उन छोटे रिवाज़ों को जानें जो नई जगह को अपना-सा बना देते हैं।'},
+'Marrakech':{name:'माराकेश',country:'मोरक्को',tag:'रंगों की दुनिया',duration:'6 दिन',description:'मदीना की रंगीन गलियों में खोएँ, फिर किसी छिपे हुए रियाद और देर तक चलने वाले खाने तक पहुँचें।'},
+'Patagonia':{name:'पैटागोनिया',country:'चिली',tag:'खुला आसमान',duration:'10 दिन',description:'दुनिया के किनारे कुछ दिन बिताएँ: खुला आसमान, यादगार पैदल रास्ते और नज़रिया बदल देने वाले नज़ारे।'},
+'Amalfi Coast':{name:'अमाल्फ़ी तट',country:'इटली',tag:'समुद्र के पास',duration:'8 दिन',description:'समुद्र के ऊपर बने धीमे रास्तों पर चलें, नींबू के बाग़ों में रुकें और लंबे दोपहर के खाने का आनंद लें।'},
+'Bali':{name:'बाली',country:'इंडोनेशिया',tag:'अपनी लय में',duration:'8 दिन',description:'हरे-भरे धान के खेतों और शांत ठहरावों के बीच अपनी रफ़्तार धीमी करें और सुबह को अपने हिसाब से खुलने दें।'},
+'Serengeti':{name:'सेरेन्गेटी',country:'तंज़ानिया',tag:'जंगल की पुकार',duration:'8 दिन',description:'सवाना की सुबह देखें, स्थानीय गाइडों से जानें और प्रकृति को संजोते हुए उसके अजूबों से मिलें।'},
+'Yucatán':{name:'युकातान',country:'मेक्सिको',tag:'धूप भरा सफ़र',duration:'7 दिन',description:'साफ़ पानी वाले सेनोटे में तैरें, स्थानीय स्वाद चखें और दिन में अनायास मिलने वाले पलों के लिए जगह रखें।'}
+};
+const staticCopySelectors={'.nav a[href="#home"]':'home','.nav a[href="#destinations"]':'destinations','.nav a[href="#journal"]':'journal','.nav a[href="#about"]':'about','.actions>a[href="#newsletter"]':'login','.signup':'planTrip','.eyebrow':'heroEyebrow','.copy h1':'heroTitle','.copy p':'heroDescription','.field label[for="place"]':'where','.field label[for="month"]':'when','.field label[for="people"]':'travelers','.search>button':'findTrip','#destinations .section-head .kicker':'moments','#destinations .section-head h2':'somewhere','#destinations .intro':'intro','#journal .kicker':'storyKicker','.story-copy h2':'storyTitle','.story-copy p':'storyDescription','.story-copy .solid':'storyLink','#about .perk:nth-child(1) strong':'perkOne','#about .perk:nth-child(1) div span':'perkOneText','#about .perk:nth-child(2) strong':'perkTwo','#about .perk:nth-child(2) div span':'perkTwoText','#about .perk:nth-child(3) strong':'perkThree','#about .perk:nth-child(3) div span':'perkThreeText','#newsletter .kicker':'newsletterKicker','#newsletter h2':'newsletterTitle','#newsletter>p':'newsletterDescription','#email button':'emailButton','.footer>span':'copyright','.footlinks a:nth-child(2)':'privacy','.footlinks a:nth-child(3)':'contact','#modalKicker':'modalKicker','#book':'modalBook'};
+function applyLanguage(language){siteLanguage=language;const copy=languageCopy[language];document.documentElement.lang=language;document.title=language==='hi'?'Aryan Travel — जहाँ दिल कहे, चलो':'Aryan Travel — Go where you feel';Object.entries(staticCopySelectors).forEach(([selector,key])=>{const element=document.querySelector(selector);if(element){if(key==='heroTitle'||key==='storyTitle')element.innerHTML=copy[key];else element.textContent=copy[key]}});document.querySelectorAll('.filter').forEach(button=>button.textContent=language==='hi'?({All:'सभी जगहें',Europe:'यूरोप',Asia:'एशिया',Africa:'अफ़्रीका',Americas:'अमेरिका'}[button.dataset.filter]):({All:'All places',Europe:'Europe',Asia:'Asia',Africa:'Africa',Americas:'Americas'}[button.dataset.filter]));document.querySelectorAll('#place option').forEach(option=>{const key=option.value||option.textContent;option.textContent=language==='hi'?({All:'दुनिया में कहीं भी',Europe:'यूरोप',Asia:'एशिया',Africa:'अफ़्रीका',Americas:'अमेरिका'}[key]||key):({All:'Anywhere in the world',Europe:'Europe',Asia:'Asia',Africa:'Africa',Americas:'Americas'}[key]||key)});document.querySelectorAll('#people option').forEach((option,index)=>option.textContent=language==='hi'?['2 यात्री','1 यात्री','3 यात्री','4 यात्री','5 या अधिक यात्री'][index]:['2 travelers','1 traveler','3 travelers','4 travelers','5+ travelers'][index]);document.querySelector('#email input').placeholder=copy.emailPlaceholder;document.querySelector('#email input').setAttribute('aria-label',copy.emailPlaceholder);document.querySelector('#month').setAttribute('aria-label',copy.monthLabel);document.querySelector('.filters').setAttribute('aria-label',copy.filterLabel);document.querySelector('.hero img').alt=copy.heroAlt;document.querySelector('.story>img').alt=copy.storyAlt;const menu=document.querySelector('#menu');menu.setAttribute('aria-label',menu.classList.contains('open')?copy.menuClose:copy.menuOpen);const toggle=document.querySelector('#languageToggle');toggle.textContent=language==='en'?'हिंदी':'EN';toggle.setAttribute('aria-label',language==='en'?'हिंदी में बदलें':'Switch to English');toggle.setAttribute('aria-pressed',language==='hi');translateTrips();if(document.querySelector('#backdrop').classList.contains('open'))translateTripModal();}
+function translateTrips(){document.querySelectorAll('.destination').forEach(card=>{const originalName=card.dataset.trip;const hi=hindiTrips[originalName];if(!hi)return;const title=card.querySelector('h3'),tag=card.querySelector('.tag'),details=card.querySelector('.meta p'),price=card.querySelector('.price'),heart=card.querySelector('.heart'),image=card.querySelector('img');if(!title.dataset.english)title.dataset.english=title.textContent;if(!tag.dataset.english)tag.dataset.english=tag.textContent;if(!details.dataset.english)details.dataset.english=details.textContent;if(!price.dataset.englishPrefix)price.dataset.englishPrefix=price.firstChild.textContent;if(!price.dataset.englishSuffix)price.dataset.englishSuffix=price.lastChild.textContent;if(!heart.dataset.english)heart.dataset.english=heart.getAttribute('aria-label');if(!image.dataset.englishAlt)image.dataset.englishAlt=image.alt;if(siteLanguage==='hi'){title.textContent=`${hi.name}, ${hi.country}`;tag.textContent=hi.tag;details.textContent=`${hi.duration} · ${regionNames.hi[card.querySelector('.meta p').dataset.region||card.dataset.region]||'यात्रा'}`;const region=Object.keys(regionNames.en).find(name=>details.dataset.english.includes(name));details.textContent=`${hi.duration} · ${regionNames.hi[region]||'यात्रा'}`;price.innerHTML=`कीमत <strong>${price.querySelector('strong').textContent}</strong> / व्यक्ति`;heart.setAttribute('aria-label',`${hi.name} सहेजें`);image.alt=`${hi.name}, ${hi.country} के नज़ारे`}else{title.textContent=title.dataset.english;tag.textContent=tag.dataset.english;details.textContent=details.dataset.english;price.innerHTML=`${price.dataset.englishPrefix}<strong>${price.querySelector('strong').textContent}</strong>${price.dataset.englishSuffix}`;heart.setAttribute('aria-label',heart.dataset.english);image.alt=image.dataset.englishAlt}})}
+function translateTripModal(){const name=document.querySelector('#modalTitle').dataset.trip;if(!name)return;const hi=hindiTrips[name];if(!hi)return;const modal=document.querySelector('.modal'),title=document.querySelector('#modalTitle'),description=document.querySelector('#modalDescription'),duration=document.querySelector('#modalDuration'),price=document.querySelector('#modalPrice'),kicker=document.querySelector('#modalKicker');if(!title.dataset.trip){title.dataset.trip=name;title.dataset.english=title.textContent;description.dataset.english=description.textContent;duration.dataset.english=duration.textContent;price.dataset.english=price.textContent;kicker.dataset.english=kicker.textContent}if(siteLanguage==='hi'){title.textContent=hi.name;description.textContent=hi.description;duration.textContent=hi.duration;price.textContent=`कीमत $${price.dataset.english.match(/[\d,]+/)?.[0]||''} से`;kicker.textContent=`${hi.country} · ${regionNames.hi[Object.keys(regionNames.en).find(region=>kicker.dataset.english.endsWith(region))]||'यात्रा'}`}else{title.textContent=title.dataset.english;description.textContent=description.dataset.english;duration.textContent=duration.dataset.english;price.textContent=price.dataset.english;kicker.textContent=kicker.dataset.english}}
+const languageToggle=document.createElement('button');languageToggle.type='button';languageToggle.id='languageToggle';languageToggle.className='language-toggle';languageToggle.textContent='हिंदी';document.querySelector('.actions').insertBefore(languageToggle,document.querySelector('.signup'));languageToggle.addEventListener('click',()=>applyLanguage(siteLanguage==='en'?'hi':'en'));document.addEventListener('click',event=>{const card=event.target.closest('.destination');if(card&&!event.target.closest('.heart'))document.querySelector('#modalTitle').dataset.trip=card.dataset.trip},true);const tripGridObserver=new MutationObserver(translateTrips);tripGridObserver.observe(document.querySelector('#grid'),{childList:true});const modalLanguageObserver=new MutationObserver(()=>{if(document.querySelector('#backdrop').classList.contains('open'))translateTripModal()});modalLanguageObserver.observe(document.querySelector('#backdrop'),{attributes:true,attributeFilter:['class']});
+applyLanguage(localStorage.getItem('aryan-travel-language')==='hi'?'hi':'en');
+languageToggle.addEventListener('click',()=>{localStorage.setItem('aryan-travel-language',siteLanguage);syncHomeExtraMenu()});
+const themeToggle=document.createElement('button');themeToggle.type='button';themeToggle.id='themeToggle';themeToggle.className='language-toggle theme-toggle';themeToggle.textContent='◐';themeToggle.title='Dark theme';themeToggle.setAttribute('aria-label','Change color theme');document.querySelector('.actions').insertBefore(themeToggle,document.querySelector('.signup'));
+function applyHomeTheme(theme){document.documentElement.dataset.theme=theme;localStorage.setItem('aryan-travel-theme',theme);themeToggle.textContent=theme==='dark'?'☀':'◐';themeToggle.title=theme==='dark'?(siteLanguage==='hi'?'हल्की थीम':'Light theme'):(siteLanguage==='hi'?'गहरी थीम':'Dark theme');themeToggle.setAttribute('aria-pressed',theme==='dark')}
+themeToggle.addEventListener('click',()=>applyHomeTheme(document.documentElement.dataset.theme==='dark'?'light':'dark'));applyHomeTheme(localStorage.getItem('aryan-travel-theme')==='dark'?'dark':'light');
+function syncHomeExtraMenu(){let menu=document.querySelector('#homePages');if(!menu){menu=document.createElement('details');menu.id='homePages';menu.className='home-pages';document.querySelector('#nav').append(menu)}const hi=siteLanguage==='hi';menu.innerHTML=`<summary>${hi?'और पेज':'Explore'}</summary><div class="home-pages-panel"><a href="destinations.html">${hi?'सभी जगहें':'All destinations'}</a><a href="map.html">${hi?'मानचित्र':'Map'}</a><a href="reviews.html">${hi?'समीक्षाएँ':'Reviews'}</a><a href="journal.html">${hi?'यात्रा डायरी':'Journal'}</a><a href="about.html">${hi?'परिचय':'About'}</a><a href="booking.html">${hi?'बुकिंग':'Booking'}</a></div>`}
+document.querySelector('.signup').href='booking.html';syncHomeExtraMenu();
+document.addEventListener('click',event=>{const card=event.target.closest('.destination');if(!card||event.target.closest('.heart'))return;const trip=trips.find(item=>item.name===card.dataset.trip);if(!trip)return;const title=document.querySelector('#modalTitle'),description=document.querySelector('#modalDescription'),duration=document.querySelector('#modalDuration'),price=document.querySelector('#modalPrice'),kicker=document.querySelector('#modalKicker');title.dataset.trip=trip.name;title.dataset.english=trip.name;description.dataset.english=trip.description;duration.dataset.english=trip.duration;price.dataset.english=`From $${trip.price.toLocaleString()}`;kicker.dataset.english=`${trip.country} · ${trip.region}`},true);
+const trips=[
+{name:'Dolomites',country:'Italy',region:'Europe',tag:'Mountain air',price:1240,rating:'4.98',duration:'7 days',image:'photo-1519681393784-d120267933ba',description:'Trade the familiar for quiet alpine trails, family-run rifugios, and mornings that make you forget to check your phone.'},
+{name:'Kyoto',country:'Japan',region:'Asia',tag:'Slow mornings',price:1680,rating:'4.96',duration:'9 days',image:'photo-1493976040374-85c8e12f0c0e',description:'Follow lantern-lit lanes, temple gardens, and the small rituals that make a new place feel like it has been waiting for you.'},
+{name:'Marrakech',country:'Morocco',region:'Africa',tag:'A little color',price:990,rating:'4.91',duration:'6 days',image:'photo-1539020140153-e479b8c22e70',description:'Get lost in the warm colors of the medina, then find your way back to a tucked-away riad and a very long dinner.'},
+{name:'Patagonia',country:'Chile',region:'Americas',tag:'Wide open',price:2150,rating:'4.99',duration:'10 days',image:'photo-1464822759023-fed622ff2c3b',description:'A few days at the edge of the map: big skies, honest hikes, and landscapes that make room for a little perspective.'},
+{name:'Amalfi Coast',country:'Italy',region:'Europe',tag:'By the sea',price:1490,rating:'4.94',duration:'8 days',image:'photo-1533105079780-92b9be482077',description:'Take the slow road above the sea, stopping for lemon groves, long lunches, and all the little villages in between.'},
+{name:'Bali',country:'Indonesia',region:'Asia',tag:'Find your flow',price:1120,rating:'4.92',duration:'8 days',image:'photo-1537996194471-e657df975ab4',description:'Settle into a gentler rhythm among green rice terraces, quiet stays, and the kind of mornings that unfold on their own.'},
+{name:'Serengeti',country:'Tanzania',region:'Africa',tag:'Wild at heart',price:2390,rating:'5.00',duration:'8 days',image:'photo-1516426122078-c23e76319801',description:'Wake with the savanna, learn from brilliant local guides, and see wild places with a little more care and a lot of wonder.'},
+{name:'Yucatán',country:'Mexico',region:'Americas',tag:'Somewhere sunny',price:1320,rating:'4.95',duration:'7 days',image:'photo-1518638150340-f706e86654de',description:'Swim in clear cenotes, taste your way around the peninsula, and leave a little space in the day for happy accidents.'}];
+const grid=document.querySelector('#grid'),toast=document.querySelector('#toast');let timer;function notify(text){toast.textContent=text;toast.classList.add('show');clearTimeout(timer);timer=setTimeout(()=>toast.classList.remove('show'),2700)}
+function render(region='All'){const data=trips.filter(t=>region==='All'||t.region===region);grid.innerHTML=data.length?data.map((t,i)=>`<article class="destination" data-trip="${t.name}" style="animation-delay:${i*.05}s"><div class="photo"><img src="https://images.unsplash.com/${t.image}?auto=format&fit=crop&w=740&q=82" alt="Scenery in ${t.name}, ${t.country}" loading="lazy"><span class="tag">${t.tag}</span><button class="heart" aria-label="Save ${t.name}" aria-pressed="false">♡</button></div><div class="meta"><div><h3>${t.name}, ${t.country}</h3><p>${t.duration} · ${t.region}</p></div><div class="rating"><span>★</span> ${t.rating}</div></div><div class="price">From <strong>$${t.price.toLocaleString()}</strong> / person</div></article>`).join(''):'<p>No trips found. Try another region.</p>';grid.querySelectorAll('.destination').forEach(card=>card.addEventListener('click',e=>{if(!e.target.closest('.heart'))openTrip(card.dataset.trip)}));grid.querySelectorAll('.heart').forEach(btn=>btn.addEventListener('click',()=>{let saved=btn.classList.toggle('saved');btn.setAttribute('aria-pressed',saved);btn.textContent=saved?'♥':'♡';notify(saved?'Saved to your wish list':'Removed from your wish list')}))}
+function openTrip(name){const t=trips.find(x=>x.name===name);document.querySelector('#modalKicker').textContent=`${t.country} · ${t.region}`;document.querySelector('#modalTitle').textContent=t.name;document.querySelector('#modalDescription').textContent=t.description;document.querySelector('#modalDuration').textContent=t.duration;document.querySelector('#modalPrice').textContent=`From $${t.price.toLocaleString()}`;document.querySelector('#modalRating').textContent=`★ ${t.rating}`;document.querySelector('#backdrop').classList.add('open');document.querySelector('#close').focus()}
+document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',()=>{document.querySelector('.filter.selected').classList.remove('selected');btn.classList.add('selected');document.querySelector('#place').value=btn.dataset.filter;render(btn.dataset.filter)}));document.querySelector('#search').addEventListener('submit',e=>{e.preventDefault();const region=document.querySelector('#place').value;document.querySelector('.filter.selected').classList.remove('selected');document.querySelector(`.filter[data-filter="${region}"]`).classList.add('selected');render(region);document.querySelector('#destinations').scrollIntoView({behavior:'smooth'});notify(region==='All'?'Showing all our favorite places':`Showing escapes in ${region}`)});document.querySelector('#email').addEventListener('submit',e=>{e.preventDefault();notify('You’re on the list. Look out for a little inspiration soon!');e.currentTarget.reset()});const backdrop=document.querySelector('#backdrop');document.querySelector('#close').addEventListener('click',()=>backdrop.classList.remove('open'));backdrop.addEventListener('click',e=>{if(e.target===backdrop)backdrop.classList.remove('open')});document.addEventListener('keydown',e=>{if(e.key==='Escape')backdrop.classList.remove('open')});document.querySelector('#book').addEventListener('click',()=>{backdrop.classList.remove('open');notify('Drop us your email and we’ll help plan it.')});const nav=document.querySelector('#nav');document.querySelector('#menu').addEventListener('click',()=>nav.classList.toggle('open'));nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));render();
+</script></body></html>
